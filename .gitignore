@@ -1,0 +1,11 @@
+.idea/
+target/
+.DS_Store
+.vscode
+wet/
+target/
+index/
+IntermediatePosting/
+vertxtest/
+html_files/
+*.pyc
