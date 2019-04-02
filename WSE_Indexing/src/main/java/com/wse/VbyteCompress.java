@@ -21,7 +21,7 @@ public class VbyteCompress {
         Byte[] bytes = res.toArray(new Byte[res.size()]);
         return ArrayUtils.toPrimitive(bytes);
     }
-x
+
     public static int[] decode(byte[] in, int count) {
         int[] res = new int[count];
         int i = 0;

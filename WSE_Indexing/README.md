@@ -21,4 +21,10 @@ wget https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2017-39/segments/15
 gunzip CC-MAIN-20170919112242-20170919132242-00000.warc.wet.gz
 ```
 
+## Explanation
 
+The main file is the main funciton of this project.
+
+1. Use CommonCralReader to read the data from the source files.
+2. Parse data and post the data to intermediate files. And insert the formated data into MongoDB.
+3. Sort the data in intermediate files and build the Lexicon Index.

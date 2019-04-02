@@ -45,7 +45,7 @@ public class Posting {
             try {
                 CommonCrawlReader.docIdTable.put(url + "###" + content.length(), IndexerConstant.DOC_ID);
                 //Inserting to MongoDb
-                //MongoDb.writeToMongoDb(IndexerConstant.DOC_ID, url, content);
+                MongoDb.writeToMongoDb(IndexerConstant.DOC_ID, url, content);
 
                 File file = new File(FilePath.INTERMEDIATE_POSTING);
                 file.createNewFile();
