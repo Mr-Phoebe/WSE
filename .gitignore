@@ -9,3 +9,6 @@ IntermediatePosting/
 vertxtest/
 html_files/
 *.pyc
+.settings
+.classpath
+.project
